@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link, useLoaderData } from 'react-router-dom';
-
+import { useLoaderData } from 'react-router-dom';
 import CourseDetails from '../CourseDetails/CourseDetails';
+import Details from '../CourseDetails/Details';
 
 const Course = () => {
     const courses = useLoaderData();
@@ -15,6 +15,7 @@ const Course = () => {
                     course={course}
                 ></CourseDetails>)
             }
+
         </div>
     );
 };

@@ -15,7 +15,7 @@ const Main = () => {
                     <Col lg="3" className='d-none d-lg-block'>
                         <LeftSideNav></LeftSideNav>
                     </Col>
-                    <Col lg="9">
+                    <Col lg="9" >
                         <Outlet></Outlet>
                     </Col>
                 </Row>
